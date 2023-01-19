@@ -11,11 +11,11 @@ public class MainBank {
         //System.out.println(account1.getBalance());
 
         //make a deposit
-        account1.Deposit(88);
+        account1.Deposit(100);
         System.out.println(account1.getBalance());
 
         //withdraw money
-        account1.withdraw(11);
+        account1.withdraw(50);
         System.out.println(account1.getBalance());
 
         account1.printAccInfo();

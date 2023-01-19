@@ -20,9 +20,6 @@ public class BankingAccount {
     }
     //Deposit an amount into the account
     public void Deposit(double amount) {
-//        Scanner a = new Scanner(System.in);
-//        System.out.print("Enter your deposit amount: ");
-//        double amount = a.nextLine();
         if(amount<=0) {
             System.out.println("System cannot deposit negative amounts. Please enter an amount above zero.");
         } else {
